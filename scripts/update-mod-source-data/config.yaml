@@ -67,7 +67,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Randomizer/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Randomizer/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Randomizer/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomizerSmall.png"
 
   random-cell-order:
     repo_owner: "OpenGOAL-Mods"
@@ -97,7 +97,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-FlutFlut-Legacy/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/flutflutlegacy.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-FlutFlut-Legacy/main/flutflut-thumbnail.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/FlutFlutSmall.png"
 
   zoomer-legacy:
     repo_owner: "OpenGOAL-Mods"
@@ -112,7 +112,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Zoomer-Legacy/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Zoomer-Legacy/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Zoomer-Legacy/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ZoomerSmall.png"
 
   super-mario-64:
     repo_owner: "OpenGOAL-Mods"
@@ -176,11 +176,11 @@ mods:
       jak1:
         release_date_override: "2023-01-05"
         cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage.png"
+        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHuntSmall.png"
       jak2:
         release_date_override: "2024-07-01"
         cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage2.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/orbhunt2-thumbnail.png"
+        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHunt2Small.png"
 
   bugged:
     repo_owner: "OpenGOAL-Mods"
@@ -210,7 +210,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Patched/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Patched/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Patched/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/PatchedSmall.png"
 
   orange-demon:
     repo_owner: "Hat-Kid"
@@ -225,7 +225,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod"]
     website_url: "https://github.com/Hat-Kid/og-orange-demon/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrangeDemonSmall.png"
 
   # TODO: needs new release w/ updated schema
   # ruh-hot-rod:
@@ -256,7 +256,7 @@ mods:
     tags: ["texture-mod", "gameplay-mod"]
     website_url: "https://github.com/ruhphorte/spec-ops-jak/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/spec-ops.JPG"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/spec-ops.JPG"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/SpecOpsSmall.png"
 
   # TODO: needs new release w/ updated schema
   # archipelagoal:
@@ -287,7 +287,7 @@ mods:
     tags: ["challenge", "gameplay-mod"]
     website_url: "https://github.com/my-opengoal-mods/OG-Jak-The-Chicken-Reborn/blob/main/README.md"
     cover_art_url: "https://www.speedrun.com/static/game/j1lnnwz6/cover.png?v=47fd2cf"
-    thumbnail_art_url: "https://www.speedrun.com/static/game/j1lnnwz6/cover.png?v=47fd2cf"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakChickenSmall.png"
 
   daxter-2:
     repo_owner: "OpenGOAL-Mods"
@@ -396,7 +396,7 @@ mods:
     tags: ["custom-level", "gameplay-mod", "challenge", "speedrunning"]
     website_url: "https://github.com/dallmeyer/jak-up/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/jakup.jpeg"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/jak-up/main/jakup-thumbnail.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakUpSmall.png"
 
   river-to-water:
     repo_owner: "Cuttlefishthesage"
@@ -411,7 +411,7 @@ mods:
     tags: ["custom-level"]
     website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/cuttlefish-river-to-water.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/cuttlefish-river-to-water.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RiverWaterSmall.png"
 
   rockpool:
     repo_owner: "Cuttlefishthesage"
@@ -426,7 +426,7 @@ mods:
     tags: ["custom-level"]
     website_url: "https://github.com/Cuttlefishthesage/Og-ModBase-Rockpool/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RockpoolSmall.png"
 
   funki-showcase:
     repo_owner: "OpenGOAL-Mods"
@@ -463,7 +463,7 @@ mods:
     tags: ["model-replacement"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Shrek-Adventures/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Shrek-Adventures/main/shrek.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Shrek-Adventures/main/shrek.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ShrekSmall.png"
 
   rayman:
     repo_owner: "dallmeyer"
@@ -478,7 +478,7 @@ mods:
     tags: ["model-replacement"]
     website_url: "https://github.com/dallmeyer/OG-rayman/blob/main/README.md"
     cover_art_url: "https://i.ytimg.com/vi/iVhPEnZxric/hqdefault.jpg"
-    thumbnail_art_url: "https://i.ytimg.com/vi/iVhPEnZxric/hqdefault.jpg"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RaymanSmall.png"
 
   # NOTE - allows for just links to mods as well, for ones that don't really fit into
   # the standard mod installation experience
