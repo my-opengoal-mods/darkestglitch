@@ -258,21 +258,20 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/spec-ops.JPG"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/SpecOpsSmall.png"
 
-  # TODO: needs new release w/ updated schema
-  # archipelagoal:
-  #   repo_owner: "ArchipelaGOAL"
-  #   repo_name: "ArchipelaGOAL"
-  #   url: "https://github.com/ArchipelaGOAL/ArchipelaGOAL"
-  #   release_date_override: "2024-05-22"
-  #   ignore_versions:
-  #     - "<0.0.11"
-  #   display_name: "ArchipelaGOAL"
-  #   description: "ALPHA RELEASE - Jak 1 x Archipelago Randomizer!"
-  #   authors: ["markus"]
-  #   tags: ["rng", "challenge", "gameplay-mod"]
-  #   website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalLarge.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalSmall.png"
+  archipelagoal:
+    repo_owner: "ArchipelaGOAL"
+    repo_name: "ArchipelaGOAL"
+    url: "https://github.com/ArchipelaGOAL/ArchipelaGOAL"
+    release_date_override: "2024-05-22"
+    ignore_versions:
+      - "<0.0.11"
+    display_name: "ArchipelaGOAL"
+    description: "ALPHA RELEASE - Jak 1 x Archipelago Randomizer!"
+    authors: ["markus"]
+    tags: ["rng", "challenge", "gameplay-mod"]
+    website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
+    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalLarge.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalSmall.png"
 
   mortin-time:
     repo_owner: "my-opengoal-mods"
