@@ -271,8 +271,8 @@ mods:
   #   authors: ["markus"]
   #   tags: ["rng", "challenge", "gameplay-mod"]
   #   website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/archipelagoal-logo.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/archipelagoal-logo.png"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalLarge.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ArchipelaGoalSmall.png"
 
   mortin-time:
     repo_owner: "my-opengoal-mods"
@@ -347,8 +347,8 @@ mods:
     authors: ["Kraken"]
     tags: ["rng", "challenge", "gameplay-mod"]
     website_url: "https://github.com/RealOfficialKraken/roguelikejakii/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/main/ModImage.png"
+    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RogueLikeLarge.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RogueLikeSmall.png"
 
   dark-jak-renegade:
     repo_owner: "OpenGOAL-Mods"
