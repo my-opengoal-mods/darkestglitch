@@ -226,6 +226,28 @@ mods:
     website_url: "https://github.com/Hat-Kid/og-orange-demon/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrangeDemonSmall.png"
+  
+  # TODO: modern mod base
+  # fricked-up:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Fricked"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Fricked"
+  #   ignore_versions:
+  #     - "<0.7.1"
+  #   display_name: "Fricked Up"
+  #   description: "PAUSERS"
+  #   authors: ["zed"]
+  #   tags: ["rng", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Fricked/blob/main/README.md"
+  #   per_game_config:
+  #     jak1:
+  #       release_date_override: "2023-01-19"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #     jak2:
+  #       release_date_override: "2023-11-09"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
 
   # TODO: needs new release w/ updated schema
   # ruh-hot-rod:
