@@ -318,21 +318,20 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
 
-  # TODO: update to modern mod base
-  # heromode-plus:
-  #   repo_owner: "RealOfficialKraken"
-  #   repo_name: "OG-HeroMode-Plus"
-  #   url: "https://github.com/RealOfficialKraken/OG-HeroMode-Plus"
-  #   release_date_override: "2023-11-07"
-  #   ignore_versions:
-  #     - "<0.0.75"
-  #   display_name: "HeroMode+ | A Jak II Overhaul"
-  #   description: "Overhauls Jak II's difficulty, but with a twist! Adds weapon mods, custom modifiers, hero mode changes, and various other things to find! Are you up for the challenge?"
-  #   authors: ["Kraken"]
-  #   tags: ["challenge", "gameplay-mod"]
-  #   website_url: "https://github.com/RealOfficialKraken/OG-HeroMode-Plus/blob/main/README.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hmplus.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hmplus.png"
+  heromode-plus:
+    repo_owner: "RealOfficialKraken"
+    repo_name: "updated-HeroModePlus"
+    url: "https://github.com/RealOfficialKraken/updated-HeroModePlus"
+    release_date_override: "2023-11-07"
+    ignore_versions:
+      - "<0.0.1"
+    display_name: "HeroMode+ | A Jak II Overhaul"
+    description: "Overhauls Jak II's difficulty, but with a twist! Adds weapon mods, custom modifiers, hero mode changes, and various other things to find! Are you up for the challenge?"
+    authors: ["Kraken"]
+    tags: ["challenge", "gameplay-mod"]
+    website_url: "https://github.com/RealOfficialKraken/updated-HeroModePlus/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusLarge.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusSmall.png"
 
   roguelike-jak2:
     repo_owner: "RealOfficialKraken"
