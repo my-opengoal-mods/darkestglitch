@@ -2,7 +2,6 @@ metadata:
   name: "JakMods"
 mods:
   # mods I left out of migration:
-  # random_actor_scale (fricked up 1/2)
   # jak_go_fast (after each cell)
   # first_person
   # classic_plus
