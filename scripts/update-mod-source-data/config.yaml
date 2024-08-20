@@ -145,20 +145,20 @@ mods:
   #   thumbnail_art_url: "https://raw.githubusercontent.com/kekdeveloper/opengoal-mod-snowy-legacy/main/ModImage.png"
 
   # TODO: migrate to modern mod base
-  # microtransactions:
-  #   repo_owner: "himham-jak"
-  #   repo_name: "Jak1-but-Microtransactions"
-  #   url: "https://github.com/himham-jak/Jak1-but-Microtransactions"
-  #   release_date_override: "2022-08-28"
-  #   ignore_versions:
-  #     - "<1.0.5"
-  #   display_name: "MicroTransactions"
-  #   description: "Unlock Jak's moveset with orbs!"
-  #   authors: ["HimHam"]
-  #   tags: ["gameplay-mod"]
-  #   website_url: "https://github.com/dallmeyer/opengoal-sm64/blob/main/README.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
+  microtransactions:
+    repo_owner: "OpenGOAL-Mods"
+    repo_name: "OG-Microtransactions"
+    url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions"
+    release_date_override: "2022-08-28"
+    ignore_versions:
+      - "<0.0.2"
+    display_name: "MicroTransactions"
+    description: "Unlock Jak's moveset with orbs!"
+    authors: ["HimHam"]
+    tags: ["gameplay-mod", "challenge"]
+    website_url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
 
   orb-hunt:
     repo_owner: "dallmeyer"
