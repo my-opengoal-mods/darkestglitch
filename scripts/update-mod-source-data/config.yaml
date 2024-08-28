@@ -81,7 +81,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-RCO/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-RCO/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-RCO/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomCellOrderSmall.png"
 
   flutflut-legacy:
     repo_owner: "OpenGOAL-Mods"
@@ -194,7 +194,7 @@ mods:
     tags: ["speedrunning", "challenge", "gameplay-mod"]
     website_url: "https://jakmods.dev/bugged/buglist.html"
     cover_art_url: "https://jakmods.dev/bugged/bugged_logo.png"
-    thumbnail_art_url: "https://jakmods.dev/bugged/bugged_logo.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/BuggedSmall.png"
 
   patched:
     repo_owner: "OpenGOAL-Mods"
@@ -336,7 +336,7 @@ mods:
     tags: ["speedrunning", "gameplay-mod"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/Jak2AugustSmall.png"    
 
   heromode-plus:
     repo_owner: "RealOfficialKraken"
