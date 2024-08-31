@@ -508,8 +508,8 @@ mods:
     authors: ["dexz"]
     supported_games: ["jak1"]
     tags: ["multiplayer", "speedrunning"]
-    thumbnail_art_url: "https://teamruns.web.app/assets/teamruns-full-logo.png"
-    cover_art_url: "https://teamruns.web.app/assets/teamruns-full-logo.png"
+    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/TeamrunsLarge.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/TeamrunsSmall.png"
 
 texture_packs:
   # TODO - this one actually isn't supported end-to-end yet (no releases)

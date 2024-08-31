@@ -233,7 +233,7 @@ for (const [modName, modInfo] of Object.entries(configFile["mods"])) {
 
                                 // temporary for backwards compatibility
                                 for (const supportedGame of newVersion.supportedGames) {
-                                    if (!Object.keys(modSourceInfo.supportedGames).includes(supportedGame)) {
+                                    if (!modSourceInfo.supportedGames.includes(supportedGame)) {
                                         modSourceInfo.supportedGames.push(supportedGame);
                                     }
                                 }
