@@ -225,7 +225,7 @@ mods:
     website_url: "https://github.com/Hat-Kid/og-orange-demon/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrangeDemonSmall.png"
-  
+
   fricked-up:
     repo_owner: "OpenGOAL-Mods"
     repo_name: "OG-Fricked"
@@ -336,7 +336,7 @@ mods:
     tags: ["speedrunning", "gameplay-mod"]
     website_url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/Jak2AugustSmall.png"    
+    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/Jak2AugustSmall.png"
 
   heromode-plus:
     repo_owner: "RealOfficialKraken"
@@ -446,25 +446,25 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RockpoolSmall.png"
 
-  funki-showcase:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Funki-Showcase"
-    url: "https://github.com/OpenGOAL-Mods/OG-Funki-Showcase"
-    release_date_override: "2023-11-08"
-    ignore_versions:
-      - "<0.1.1"
-    display_name: "FUNKI DELIRE Custom Levels"
-    description: "There are several maps. Parkour, Minecraft, Keira land, etc... Plenty of fun in the magnificent world of Jak and Daxter! Recommended to change Time of Day to Palette 7 from the debug menu to see the maps clearly (Jak II)."
-    authors: ["FUNKI DELIRE (LEON GAGIN)"]
-    tags: ["custom-level"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Funki-Showcase/blob/main/README.md"
-    per_game_config:
-      jak1:
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour.png"
-      jak2:
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour2.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour2.png"
+  # funki-showcase:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Funki-Showcase"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Funki-Showcase"
+  #   release_date_override: "2023-11-08"
+  #   ignore_versions:
+  #     - "<0.1.1"
+  #   display_name: "FUNKI DELIRE Custom Levels"
+  #   description: "There are several maps. Parkour, Minecraft, Keira land, etc... Plenty of fun in the magnificent world of Jak and Daxter! Recommended to change Time of Day to Palette 7 from the debug menu to see the maps clearly (Jak II)."
+  #   authors: ["FUNKI DELIRE (LEON GAGIN)"]
+  #   tags: ["custom-level"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Funki-Showcase/blob/main/README.md"
+  #   per_game_config:
+  #     jak1:
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour.png"
+  #     jak2:
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/funkiparkour2.png"
 
   #### MODEL REPLACEMENT MODS ####
 
