@@ -79,6 +79,10 @@ h1, h2 {
     font-family: Roboto,arial,serif;
 }
 
+li + li {
+  margin-top: 10px;
+}
+
 .navbar {
     overflow: hidden;
     position: fixed;

@@ -29,6 +29,10 @@
     }
 
     cell = row.insertCell();
+    cell.style.width="10%";
+    cell.innerHTML = "<b>Platforms</b>";
+
+    cell = row.insertCell();
     cell.style.width="5%";
     cell.innerHTML = "<b>Released</b>";
 
@@ -36,47 +40,65 @@
     cell.style.width="5%";
     cell.innerHTML = "<b>Website</b>";
 
-    cell = row.insertCell();
-    cell.style.width="5%";
-    cell.innerHTML = "<b>Video(s)</b>";
+    // cell = row.insertCell();
+    // cell.style.width="5%";
+    // cell.innerHTML = "<b>Video(s)</b>";
 
     return table;
   }
 
   async function asyncLoadModTable() {
     // download and parse JSON
-    let response = await fetch("https://raw.githubusercontent.com/OpenGOAL-Unofficial-Mods/OpenGoal-ModLauncher-dev/main/resources/jak1_mods.json");
+    let response = await fetch("https://jakmods.dev/mods.json");
     let data = await response.json();
     
-    // let rawData = '{"Modding Community": [{"name": "Randomizer","desc": "Warp to a random checkpoint on various triggers (cells, flies, orbs, eco, death).","URL": "https://github.com/OpenGOAL-Unofficial-Mods/opengoal-randomizer-mod-pack/tree/main"}]}';
+    // let rawData = '{"schemaVersion":"1.0.0","sourceName":"JakMods","mods":{"speedrun-practice":{"displayName":"Speedrun Practice","description":"A mod that helps you practice speedrunning. See website for more info","authors":["barg","zed","yopie"],"tags":["speedrunning","practice"],"websiteUrl":"https://github.com/OpenGOAL-Mods/OG-Speedrun-Practice/blob/main/README.md","supportedGames":["jak1","jak2","jak3","jak1","jak2","jak3"],"versions":[{"version":"0.2.0","publishedDate":"2024-08-25T04:31:59Z","supportedGames":["jak1","jak2","jak3"],"settings":{"decompConfigOverride":"","shareVanillaSaves":false},"assets":{"windows":"https://github.com/OpenGOAL-Mods/OG-Speedrun-Practice/releases/download/v0.2.0/windows-v0.2.0.zip","linux":null,"macos":null},"assetDownloadCounts":{"windows":8,"linux":0,"macos":0}},{"version":"0.1.21","publishedDate":"2024-08-16T20:29:19Z","supportedGames":["jak1","jak2","jak3"],"settings":{"decompConfigOverride":"","shareVanillaSaves":false},"assets":{"windows":"https://github.com/OpenGOAL-Mods/OG-Speedrun-Practice/releases/download/v0.1.21/windows-v0.1.21.zip","linux":null,"macos":null},"assetDownloadCounts":{"windows":10,"linux":0,"macos":0}}],"perGameConfig":{"jak1":{"coverArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png","thumbnailArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png","releaseDate":"2022-10-23"},"jak2":{"coverArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg","thumbnailArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg","releaseDate":"2023-12-11"},"jak3":{"coverArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg","thumbnailArtUrl":"https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg","releaseDate":"2024-06-28"}},"externalLink":null}}}';
     // let data = JSON.parse(rawData);
     
     // parse mods into dict from JSON
     let mods = [];
-    for (let mod_id in data) {
-      let mod = data[mod_id];
+    for (let mod_id in data.mods) {
+      let mod = data.mods[mod_id];
+
+      // skip these
+      if (mod["externalLink"]) {continue;}
       
-      mods.push([
-        mod["name"],
-        mod["desc"],
-        mod["contributors"].join(", "),
-        mod["tags"].sort().join(", "),
-        mod["release_date"],
-        mod["website_url"], 
-        mod["videos_url"],
-        mod["game"]
-      ]);
+      // dedupe games
+      let games = [...new Set(mod["supportedGames"])];
+
+      let platforms = [];
+      for (let version of mod["versions"]) {
+        for (let platform in version["assets"]) {
+          if (version["assets"][platform]) {
+            platforms.push(platform);
+          }
+        }
+      }
+
+      for (let game of games) {
+        let releaseDate = mod["perGameConfig"][game]["releaseDate"];
+        mods.push([
+          mod["displayName"],
+          mod["description"],
+          mod["authors"].join(", "),
+          mod["tags"].sort().join(", "),
+          [...new Set(platforms)].join(", "), // dedupe
+          releaseDate,
+          mod["websiteUrl"], 
+          game
+        ]);
+      }
     }
-        
+
     // add blank tables
     let jak1ModList = initTable(true);
     document.getElementById("jak1ModList").appendChild(jak1ModList);
     let jak2ModList = initTable(true);
     document.getElementById("jak2ModList").appendChild(jak2ModList);
-    let jak1TexList = initTable(false);
-    document.getElementById("jak1TexList").appendChild(jak1TexList);
-    let jak2TexList = initTable(false);
-    document.getElementById("jak2TexList").appendChild(jak2TexList);
+    // let jak1TexList = initTable(false);
+    // document.getElementById("jak1TexList").appendChild(jak1TexList);
+    // let jak2TexList = initTable(false);
+    // document.getElementById("jak2TexList").appendChild(jak2TexList);
 
     // sort by release date desc (recent at top)
     mods = mods.sort((a, b) => b[4].localeCompare(a[4]))
@@ -94,20 +116,12 @@
       let showTags = false;
       switch (mod[7]) {
         case "jak1":
-          if (mod[3] == "texture-mod" || mod[3] == "asset-pack") {
-            table = jak1TexList;
-          } else {
-            table = jak1ModList;
-            showTags = true;
-          }
+          table = jak1ModList;
+          showTags = true;
           break;
         case "jak2":
-          if (mod[3] == "texture-mod" || mod[3] == "asset-pack") {
-            table = jak2TexList;
-          } else {
-            table = jak2ModList;
-            showTags = true;
-          }
+          table = jak2ModList;
+          showTags = true;
           break;
       }
 
@@ -119,57 +133,57 @@
         if (showTags) {
           row.insertCell().innerHTML = mod[3];  // tags
         }
-        row.insertCell().innerHTML = mod[4];  // release date
-        if (mod[5] && mod[5] != "") {
-          row.insertCell().innerHTML = "<a href=\"" + mod[5] + "\">Website</a>";  // website
-        } else {
-          row.insertCell().innerHTML = "N/A";
-        }
+        row.insertCell().innerHTML = mod[4];  // platforms
+        row.insertCell().innerHTML = mod[5];  // release date
         if (mod[6] && mod[6] != "") {
-          row.insertCell().innerHTML = "<a href=\"" + mod[6] + "\">Video(s)</a>";  // videos
+          row.insertCell().innerHTML = "<a href=\"" + mod[6] + "\">Website</a>";  // website
         } else {
           row.insertCell().innerHTML = "N/A";
         }
-        // if (mod[7] && mod[7] != "") {
-        //   row.insertCell().innerHTML = "<a href=\"" + mod[7] + "\">Photo(s)</a>";  // photos
-        // } else {
-        //   row.insertCell().innerHTML = "N/A";
-        // }
       }
     }
+  }
+
+  function copyUrlToClipboard() {
+    let modsUrl = "https://jakmods.dev/mods.json";
+    navigator.clipboard.writeText(modsUrl);
+    alert("Copied " + modsUrl + " to clipboard");
   }
     
   window.addEventListener("load", () => {
     asyncLoadModTable();
   });
   </script>
-  <title>Jak Mods (OpenGOAL mod launcher)</title>
+  <title>Jak Mods (OpenGOAL Mods)</title>
   <link rel="icon" href="icon.png" type="image/x-icon">
   <body>
     <div class="navbar">
-      <p><h1><center>JakMods.dev (OpenGOAL Mod Launcher) <img src="icon.png" height="25"/></center></h1></p>
-      <p><center><a href="/#download">Download/Installation</a> | <!--<a href="#textures">Texture Replacements</a> | --><a href="/#mods">Available Mods</a> | <a href="faq">FAQ</a> | <a href="https://discord.gg/k5PKHta6d8">Discord</a> | <a href="https://opengoal.dev/">OpenGOAL official site</a></center></p>
+      <p><h1><center>JakMods.dev (OpenGOAL Mods) <img src="icon.png" height="25"/></center></h1></p>
+      <p><center><a href="index.html">Mod List</a> | <a href="https://opengoal.dev/">OpenGOAL official site</a> | <a href="legacy.html">Legacy Mod Launcher</a> | <a href="faq.html">FAQ</a> | <a href="https://discord.gg/k5PKHta6d8">Discord</a></center></p>
     </div>
     
     <div class="main">
-      <p><a name="download"/><h2>Download/Installation</h2></p>
-      <p><h3>Click <a href="download.html">here</a> to download the unofficial OpenGOAL mod launcher and play OpenGOAL mods! The launcher will automatically update itself when needed.</h3></p>
-      <p><b>PLEASE NOTE</b>: This launcher and the mods are NOT supported by the main OpenGOAL developers! For more information see the <a href="faq">FAQ</a>, or join us in the <a href="https://discord.gg/k5PKHta6d8">OpenGOAL Modding Discord server</a> for any questions.</p>
-      <p>All code is ran at your own risk. The mod launcher is a small Python program bundled into a Windows app for easy use. You can audit the code, or build the launcher from source on Github <a href="https://github.com/OpenGOAL-Unofficial-Mods/OpenGoal-ModLauncher-dev">here</a>.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/0eRYnLbVVHs?si=m2f0fB6J9dMqjv7l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p></p>
-      <hr>
-      
-      <!-- <p><a name="textures"/><h2>Texture Replacements</h2></p>
-      <p>Similar to <a href="https://opengoal.dev/docs/usage/texture_replacement">texture replacements on vanilla openGOAL</a>, you can use custom textures on top of any mod:
+      <p><a name="install"></a><h2>Installation</h2></p>
+      <p><h3>OpenGOAL Mods are now supported in the vanilla OpenGOAL Launcher!</h3></p>
+      <p>Please see the following instructions, or the video below.
         <ol>
-          <li>Select an installed mod in the launcher</li>
-          <li>Click the "View Folder" button to open the mod install folder</li>
-          <li>Copy your <code>texture_replacements</code> folder and paste it inside of the <code>data</code> folder (this will overwrite any texture replacements from the mod itself)</li>
-          <li>Click the "Reinstall" button to reinstall the mod with your updated textures</li>
+          <li>Download and install the <a href="https://opengoal.dev">OpenGOAL Launcher</a></li>
+          <li>Before mods can be installed, go through the Launcher's <i>vanilla installation</i> process for the game(s) you're interested in</li>
+          <li>Copy our <a href="https://jakmods.dev/mods.json">Mod List URL</a> to clipboard <button onclick="copyUrlToClipboard()">Click to copy!</button></li>
+          <li>In the OpenGOAL Launcher go to Settings in the lower left, then go to the Mods tab</li>
+          <li>Paste the Mod List URL in the box, then press the Add button</li>
+          <li>Navigate to game page of your choice, click the Features button, and then the Mods option</li>
+          <li>You should see a list of installed and available mods from any list(s) you've added</li>
+          <li>Clicking an available mod will download and install the latest release for that mod</li>
+          <li>Once installed, clicking a mod brings you to a landing page for the mod. From here you can play the mod, change versions, uninstall, etc.</li>
+          <li>For each mod, there can only be one version installed at a given time. When new versions of a mod are available, you should see a notification on the Versions button. You can select which version to install from here, or you'll also be prompted to update the mod before playing (unless you opt out of this behavior).</li>
         </ol>
       </p>
-      <hr> -->
+      <p><b>PLEASE NOTE</b>: The mod list and the mods themselves are NOT supported by the main OpenGOAL developers! For more information see the <a href="faq.html">FAQ</a>, or join us in the <a href="https://discord.gg/k5PKHta6d8">OpenGOAL Modding Discord server</a> for any questions.</p>
+      <p>All mods are installed and ran at your own risk.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UUqhZUK5Oqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p></p>
+      <hr>
 
       <p><h2>Other Mods/Utilities</h2></p>
       <p>In addition to the mods below which you can find in the mod launcher, here are some other mods/utilities that live outside of the mod launcher:
@@ -181,16 +195,12 @@
       </p>
       <hr>
       
-      <p><a name="mods"/><h2>Available Mods</h2></p>
-      <p>Please see the <a href="faq">FAQ</a> if you're interesting in making mods, and ping <u>barg034</u> or <u>zedb0t</u> on Discord if you have a mod you'd like to add to the launcher.</p>
+      <p><a name="mods"></a><h2>Available Mods</h2></p>
+      <p>Please see the <a href="faq.html">FAQ</a> if you're interesting in making mods, and ping <u>barg034</u> or <u>zedb0t</u> on Discord if you have a mod you'd like to add to the Mod List.</p>
       <p><h3>Jak 1 Mods</h3></p>
       <p><div id="jak1ModList"></div></p>
       <p><h3>Jak 2 Mods</h3></p>
       <p><div id="jak2ModList"></div></p>
-      <p><h3>Jak 1 Asset Packs</h3></p>
-      <p><div id="jak1TexList"></div></p>
-      <p><h3>Jak 2 Asset Packs</h3></p>
-      <p><div id="jak2TexList"></div></p>
       <hr>
       <p>
         <center>
