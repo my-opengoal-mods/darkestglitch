@@ -1,1 +1,1 @@
-# jakmods.dev Website
+# jakmods.dev website
