@@ -2,7 +2,7 @@ name: Update Mod Source
 
 on:
   schedule:
-    - cron: "0 16 * * *" # every day @ 12pm EST - https://crontab.guru/#0_16_*_*_*
+    - cron: "0 */4 * * *" # every 4 hours, at minute 0 - https://crontab.guru/every-4-hours
   workflow_dispatch: {}
 
 # Allow one concurrent deployment
