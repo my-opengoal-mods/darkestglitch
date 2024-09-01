@@ -365,8 +365,8 @@ mods:
     authors: ["Kraken"]
     tags: ["rng", "challenge", "gameplay-mod"]
     website_url: "https://github.com/RealOfficialKraken/roguelikejakii/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RogueLikeLarge.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RogueLikeSmall.png"
+    cover_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Background.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Thumbnail.png"
 
   dark-jak-renegade:
     repo_owner: "OpenGOAL-Mods"
