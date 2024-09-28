@@ -454,12 +454,12 @@ mods:
     ignore_versions:
       - "<4.3.2"
     display_name: "Overgrown"
-    description: "Custom Forest themded Jak and Daxter Level"
+    description: "Custom Forest themed Jak and Daxter Level"
     authors: ["Cuttlefish"]
     tags: ["custom-level"]
     website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
+    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
 
   #### MODEL REPLACEMENT MODS ####
 
