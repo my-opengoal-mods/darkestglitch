@@ -446,20 +446,20 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RockpoolSmall.png"
 
-  # overgrown:
-  #   repo_owner: "Cuttlefishthesage"
-  #   repo_name: "LL-OpenGOAL-ModBase"
-  #   url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase"
-  #   release_date_override: "2024-09-26"
-  #   ignore_versions:
-  #     - "<4.3.1"
-  #   display_name: "Overgrown"
-  #   description: "Custom Forest themded Jak and Daxter Level"
-  #   authors: ["Cuttlefish"]
-  #   tags: ["custom-level"]
-  #   website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
+  overgrown:
+    repo_owner: "Cuttlefishthesage"
+    repo_name: "LL-OpenGOAL-ModBase"
+    url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase"
+    release_date_override: "2024-09-26"
+    ignore_versions:
+      - "<4.3.2"
+    display_name: "Overgrown"
+    description: "Custom Forest themded Jak and Daxter Level"
+    authors: ["Cuttlefish"]
+    tags: ["custom-level"]
+    website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/master/overgrownthumbnail.png"
 
   #### MODEL REPLACEMENT MODS ####
 
