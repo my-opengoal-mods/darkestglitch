@@ -452,7 +452,7 @@ mods:
     url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase"
     release_date_override: "2024-09-26"
     ignore_versions:
-      - "<4.3.2"
+      - "<4.3.3"
     display_name: "Overgrown"
     description: "Custom Forest themed Jak and Daxter Level"
     authors: ["Cuttlefish"]
