@@ -500,7 +500,7 @@ mods:
     release_date_override: "2024-06-05"
     display_name: "TeamRuns"
     description: "Online and couch co-op multiplayer mod"
-    authors: ["dexz"]
+    authors: ["Dexz"]
     supported_games: ["jak1"]
     tags: ["multiplayer", "speedrunning"]
     cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/TeamrunsLarge.png"
