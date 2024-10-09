@@ -383,6 +383,21 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
     thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
 
+  platformia:
+    repo_owner: "Grateful-Forest"
+    repo_name: "Platformia"
+    url: "https://github.com/Grateful-Forest/Platformia"
+    release_date_override: "2024-10-09"
+    ignore_versions:
+      - "<0.0.2"
+    display_name: "Platformia"
+    description: ""
+    authors: ["Grateful Forest"]
+    tags: ["gameplay-mod", "custom-level", "challenge"]
+    website_url: "https://github.com/Grateful-Forest/Platformia/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/ModImage.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/ModImage.png"
+
   #### CUSTOM LEVEL MODS ####
 
   # TODO: modern mod base
