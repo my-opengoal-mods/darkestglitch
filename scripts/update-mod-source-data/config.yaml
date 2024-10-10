@@ -391,12 +391,12 @@ mods:
     ignore_versions:
       - "<0.0.1"
     display_name: "Platformia"
-    description: "Contents:\n\nPlatforms (99.9%), Particles (0.1%).\n\nMay contain traces of Jak II checkpoints."
+    description: "Contents: Platforms (99.9%), Particles (0.1%). May contain traces of Jak II checkpoints."
     authors: ["Grateful Forest"]
     tags: ["gameplay-mod", "custom-level", "challenge"]
     website_url: "https://github.com/Grateful-Forest/Platformia/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/cover.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/background.png"
+    cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/background.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/cover.png"
 
   #### CUSTOM LEVEL MODS ####
 
