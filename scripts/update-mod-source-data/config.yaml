@@ -286,7 +286,7 @@ mods:
     ignore_versions:
       - "<0.0.11"
     display_name: "ArchipelaGOAL"
-    description: "ALPHA RELEASE - Jak 1 x Archipelago Randomizer!"
+    description: "Jak 1 Archipelago Randomizer"
     authors: ["markus"]
     tags: ["rng", "challenge", "gameplay-mod"]
     website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
