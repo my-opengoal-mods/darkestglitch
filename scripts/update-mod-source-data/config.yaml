@@ -508,6 +508,21 @@ mods:
     cover_art_url: "https://i.ytimg.com/vi/iVhPEnZxric/hqdefault.jpg"
     thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RaymanSmall.png"
 
+  halloween:
+    repo_owner: "Clankape"
+    repo_name: "OG-Mod-Base-Halloween"
+    url: "https://github.com/Clankape/OG-Mod-Base-Halloween"
+    release_date_override: "2024-10-31"
+    ignore_versions:
+      - "<0.0.2"
+    display_name: "The Halloween Legacy"
+    description: "Jak & Daxter - The Halloween Legacy"
+    authors: ["Clankape"]
+    tags: ["model-replacement"]
+    website_url: "https://github.com/Clankape/OG-Mod-Base-Halloween/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/Background.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/thumbnail.png"
+
   # NOTE - allows for just links to mods as well, for ones that don't really fit into
   # the standard mod installation experience
   teamruns:
