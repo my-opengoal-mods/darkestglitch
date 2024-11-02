@@ -58,26 +58,10 @@
         <summary><b>I made a texture pack / custom level / mod, how can I get it listed in the mod launcher?</b></summary>
         <p style="margin-left: 25px">The mod launcher expects to download mods as a Github release bundle of the <a href="https://github.com/open-goal/jak-project"><code>jak-project</code></a>, so in short: you'll need to get your creation hosted on a Github repository and create a release in the expected format.</p>
         <p style="margin-left: 25px">If you're new to Github, sorry we won't walk you through that here - there are plenty of guides online that will do a better job than we can teaching you about git and Github.</p>
-        <p style="margin-left: 25px">We recommend making a fork of our <a href="https://github.com/OpenGOAL-Mods/OG-Mod-Base">OG-Mod-Base project</a>, as this comes with an easy workflow for creating release bundles. If you plan to make multiple mods, keep in mind you can only have one fork per personal account - to work around this you can create a Github organization for yourself and create your fork(s) under that.</p>
-        <p style="margin-left: 25px"><img src="faq/fork.png" width="50%" onclick="this.requestFullscreen()"/></p>
-        <p style="margin-left: 25px">From here, you'll want to commit and push your changes to this new repository. For texture packs, this would involve adding the <code>texture_replacements</code> folder and your textures within it. For custom levels, this would (at a minimum) involve adding your level to the <code>custom_levels</code> folder.</p>
-        <p style="margin-left: 25px">Once your changes are pushed to Github and you're ready to create a release for people to play, you can head to the Actions tab on your repo, and look for the Cut Mod Release action.</p>
-        <p style="margin-left: 25px"><img src="faq/actions.png" width="50%" onclick="this.requestFullscreen()"/></p>
-        <p style="margin-left: 25px">On the right side you can kick off this workflow, and it will bundle up the necessary files from your repo into a release. You can choose whether this new release you're creating should get a patch/minor/major version bump.</p>
-        <p style="margin-left: 25px"><img src="faq/run-workflow.png" width="400" onclick="this.requestFullscreen()"/></p>
-        <p style="margin-left: 25px">Once this workflow completes, you should see a new release version on the right side of the main page of your repo.</p>
-        <p style="margin-left: 25px"><img src="faq/releases.png" width="30%" onclick="this.requestFullscreen()"/></p>
+        <p style="margin-left: 25px">We recommend making a fork of our <a href="https://github.com/OpenGOAL-Mods/OG-Mod-Base">OG-Mod-Base project</a>, as this comes with an easy workflow for creating release bundles. You can follow this video for using the ModBase and creating a release for your mod:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3QiqmEA6Wc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p style="margin-left: 25px">At this point, your mod should be bundled and ready for us to add! Just reach out to <u>barg034</u> or <u>zedb0t</u> on Discord with the name, description, and thumbnail image - we'll work with you to get it added to the mod list.</p>
-        <p style="margin-left: 25px">Whenever you'd like to publish updates to your mod, simply push those changes to your Github repo, and kick off a new Cut Mod Release action. The mod launcher will always try to grab the latest release from your repo.</p>
-        <p style="margin-left: 25px">Here's a brief example of the steps we took recently to help Funki Delire create a mod featuring their custom levels:
-          <ul>
-            <li>New <a href="https://github.com/OpenGOAL-Mods/OG-Funki-Showcase">OG-Funki-Showcase repo</a> forked from OG-Mod-Base</li>
-            <li><a href="https://github.com/OpenGOAL-Mods/OG-Funki-Showcase/commit/c25ac72423f61016041d9c53aa36df0240fa9b7a">Committed changes</a> for custom levels and checkpoints</li>
-            <li>Ran the <a href="https://github.com/OpenGOAL-Mods/OG-Funki-Showcase/actions/runs/6809068568">Cut Mod Release</a> action</li>
-            <li>A <a href="https://github.com/OpenGOAL-Mods/OG-Funki-Showcase/releases/tag/v0.0.2">new release</a> was created</li>
-            <li>Mod was <a href="https://github.com/OpenGOAL-Unofficial-Mods/OpenGoal-ModLauncher-dev/commit/3dd5e19bbd65bfa5da2a7bce73219a1b7341b474">added to the launcher list</a></li>
-          </ul>
-        </p>
+        <p style="margin-left: 25px">Whenever you'd like to publish updates to your mod, simply push those changes to your Github repo, and kick off a new Cut Mod Release action. Our mod list periodically refreshes and will pick up your new release so it shows up in the launcher.</p>
       </details></p>
 
       <p><details>
