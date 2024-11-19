@@ -42,6 +42,7 @@ jobs:
         with:
           message: "source: Updated mod source data"
           push: true
+          default_actor: github_actions
 
   deploy_website:
     name: "Deploy Website Changes"
