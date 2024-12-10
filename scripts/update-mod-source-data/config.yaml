@@ -400,21 +400,20 @@ mods:
 
   #### CUSTOM LEVEL MODS ####
 
-  # TODO: modern mod base
-  # forgotten-lands:
-  #   repo_owner: "Kuitar5"
-  #   repo_name: "the-forgotten-lands"
-  #   url: "https://github.com/Kuitar5/the-forgotten-lands"
-  #   release_date_override: "2023-01-08"
-  #   ignore_versions:
-  #     - "<0.2.1"
-  #   display_name: "The Forgotten Lands"
-  #   description: "Experience a new story and levels. Start a new game and beat Geyser Rock to access the custom levels."
-  #   authors: ["Kuitar", "Hat-Kid"]
-  #   tags: ["custom-level", "gameplay-mod"]
-  #   website_url: "https://github.com/Kuitar5/the-forgotten-lands/blob/main/README.md#the-forgotten-lands"
-  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/tfl.webp"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/tfl.webp"
+  forgotten-lands:
+    repo_owner: "Kuitar5"
+    repo_name: "the-forgotten-lands"
+    url: "https://github.com/Kuitar5/the-forgotten-lands"
+    release_date_override: "2023-01-08"
+    ignore_versions:
+      - "<0.2.2"
+    display_name: "The Forgotten Lands"
+    description: "Experience a new story and levels. Start a new game and beat Geyser Rock to access the custom levels."
+    authors: ["Kuitar", "Hat-Kid"]
+    tags: ["custom-level", "gameplay-mod"]
+    website_url: "https://github.com/Kuitar5/the-forgotten-lands/blob/main/README.md#the-forgotten-lands"
+    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_background.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_thumbnail.png"
 
   up:
     repo_owner: "dallmeyer"
