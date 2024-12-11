@@ -144,9 +144,9 @@
     }
   }
 
-  function copyUrlToClipboard() {
+  async function copyUrlToClipboard() {
     let modsUrl = "https://jakmods.dev/mods.json";
-    navigator.clipboard.writeText(modsUrl);
+    await navigator.clipboard.writeText(modsUrl);
     alert("Copied " + modsUrl + " to clipboard");
   }
     
