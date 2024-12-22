@@ -474,6 +474,21 @@ mods:
     website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
+    
+  glacier:
+    repo_owner: "Cuttlefishthesage"
+    repo_name: "OG-Mod-Base-Glacier"
+    url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier"
+    release_date_override: "2024-12-22"
+    ignore_versions:
+      - "<1.0.7"
+    display_name: "Glacier"
+    description: "The lurkers are harvesting vast quantities of dark eco from these rocky glaciers. You must stop their terrible plans and destroy their pumps! Featuring 101 orbs and 7 power cells to find and discover!"
+    authors: ["Cuttlefish"]
+    tags: ["custom-level"]
+    website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
 
   #### MODEL REPLACEMENT MODS ####
 
