@@ -383,6 +383,21 @@ mods:
     cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
     thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
 
+  speeb:
+    repo_owner: "EvelynTSMG"
+    repo_name: "JakSpeeb"
+    url: "https://github.com/EvelynTSMG/JakSpeeb"
+    release_date_override: "2024-12-31"
+    ignore_versions:
+      - "<1.0.0"
+    display_name: "Speeb"
+    description: "Nyoom! :3"
+    authors: ["EvelynTSMG"]
+    tags: ["speedrunning", "challenge", "gameplay-mod"]
+    website_url: "https://github.com/EvelynTSMG/JakSpeeb/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_background.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_thumbnail.png"
+
   platformia:
     repo_owner: "Grateful-Forest"
     repo_name: "Platformia"
