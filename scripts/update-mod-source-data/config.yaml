@@ -438,7 +438,7 @@ mods:
     ignore_versions:
       - "<0.2.1"
     display_name: "Jak Up"
-    description: "Only Up in Jak 1. Hub 1+2 so far. WARNING: the custom levels take up ~700MB, and will take a couple minutes to install."
+    description: "Only Up in Jak 1. WARNING: the custom levels take up ~700MB, and will take a few minutes to install."
     authors: ["barg"]
     tags: ["custom-level", "gameplay-mod", "challenge", "speedrunning"]
     website_url: "https://github.com/dallmeyer/jak-up/blob/main/README.md"
@@ -483,7 +483,7 @@ mods:
     ignore_versions:
       - "<4.3.3"
     display_name: "Overgrown"
-    description: "Custom Forest themed Jak and Daxter Level"
+    description: "6 powercells to find in this winding ancient forest! From scaling giant trees, to navigating mazes of nettles! Rumour has it, the muses brother lives out here too..."
     authors: ["Cuttlefish"]
     tags: ["custom-level"]
     website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
