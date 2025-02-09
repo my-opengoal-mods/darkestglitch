@@ -438,7 +438,7 @@ mods:
     ignore_versions:
       - "<0.2.1"
     display_name: "Jak Up"
-    description: "Only Up in Jak 1. WARNING: the custom levels take up >1GB, and will take a few minutes to install."
+    description: "Only Up in Jak 1. WARNING: the custom levels take up ~500MB, and will take a few minutes to install."
     authors: ["barg"]
     tags: ["custom-level", "gameplay-mod", "challenge", "speedrunning"]
     website_url: "https://github.com/dallmeyer/jak-up/blob/main/README.md"
