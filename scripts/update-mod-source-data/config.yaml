@@ -412,6 +412,21 @@ mods:
     website_url: "https://github.com/Grateful-Forest/Platformia/blob/main/README.md"
     cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/background.png"
     thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/cover.png"
+    
+  defend_port_wall:
+    repo_owner: "Nick0778"
+    repo_name: "OG-Mod-Base"
+    url: "https://github.com/Nick0778/OG-Mod-Base"
+    release_date_override: "2025-02-25"
+    ignore_versions:
+      - "<0.0.1"
+    display_name: "Defend the Port Wall"
+    description: "Play the cut mission 'Defend the Port Wall'. Special install instructions: https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
+    authors: ["Nick07"]
+    tags: ["gameplay-mod"]
+    website_url: "https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
+    cover_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_BG.png"
+    thumbnail_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_Cover.png"
 
   #### CUSTOM LEVEL MODS ####
 
