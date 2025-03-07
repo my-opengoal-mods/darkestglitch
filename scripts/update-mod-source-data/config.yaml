@@ -31,7 +31,7 @@ mods:
     # past releases that don't conform to the new format, then beyond that hopefully every release is valid
     # with the potential to maybe skip a bad one here and there.
     ignore_versions:
-      - "<0.0.1"
+      - "<0.0.0"
     display_name: "Darkest Glitch"
     description: "The truth lies in darkness."
     authors: ["zed"]
@@ -42,8 +42,8 @@ mods:
     per_game_config:
       jak1:
         release_date_override: "2025-03-06"
-        cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png"
+        cover_art_url: "https://cdna.artstation.com/p/assets/images/images/013/642/252/original/charlie-tran-zeeedd.gif"
+        thumbnail_art_url: "https://pa1.aminoapps.com/5829/d33d9674337ab0ef7968bf601cedf2db0f87d978_hq.gif"
       # jak2:
       #   release_date_override: "2023-12-11"
       #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg"
