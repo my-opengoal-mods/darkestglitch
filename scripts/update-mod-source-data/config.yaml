@@ -25,8 +25,8 @@ mods:
 
   speedrun-practice:
     repo_owner: "my-opengoal-mods"
-    repo_name: "darkestglitch"
-    url: "https://github.com/my-opengoal-mods/darkestglitch"
+    repo_name: "darkest-glitch"
+    url: "https://github.com/my-opengoal-mods/darkest-glitch"
     # NOTE - only '<' is supported and explicit versions.  The assumption is that '<' is only needed to skip
     # past releases that don't conform to the new format, then beyond that hopefully every release is valid
     # with the potential to maybe skip a bad one here and there.
@@ -36,7 +36,7 @@ mods:
     description: "The truth lies in darkness."
     authors: ["zed"]
     tags: ["speedrunning", "practice"]
-    website_url: "https://github.com/my-opengoal-mods/darkestglitch"
+    website_url: "https://github.com/my-opengoal-mods/darkest-glitch"
     # NOTE - right now only really supporting the art assets
     # i honestly don't think you'd need it for anything else, maybe ignore_versions? Extend when necessary!
     per_game_config:
