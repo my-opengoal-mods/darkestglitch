@@ -24,548 +24,548 @@ mods:
   # candy_pop_keira
 
   speedrun-practice:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Speedrun-Practice"
-    url: "https://github.com/OpenGOAL-Mods/OG-Speedrun-Practice"
+    repo_owner: "my-opengoal-mods"
+    repo_name: "darkestglitch"
+    url: "https://github.com/my-opengoal-mods/darkestglitch"
     # NOTE - only '<' is supported and explicit versions.  The assumption is that '<' is only needed to skip
     # past releases that don't conform to the new format, then beyond that hopefully every release is valid
     # with the potential to maybe skip a bad one here and there.
-    ignore_versions:
-      - "<0.1.21"
-    display_name: "Speedrun Practice"
-    description: "A mod that helps you practice speedrunning. See website for more info"
-    authors: ["barg", "zed", "yopie"]
+    # ignore_versions:
+    #   - "<0.1.21"
+    display_name: "Darkest Glitch"
+    description: "The truth lies in darkness."
+    authors: ["zed"]
     tags: ["speedrunning", "practice"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Speedrun-Practice/blob/main/README.md"
+    website_url: "https://github.com/my-opengoal-mods/darkestglitch"
     # NOTE - right now only really supporting the art assets
     # i honestly don't think you'd need it for anything else, maybe ignore_versions? Extend when necessary!
     per_game_config:
       jak1:
-        release_date_override: "2022-10-23"
+        release_date_override: "2025-03-06"
         cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png"
         thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage.png"
-      jak2:
-        release_date_override: "2023-12-11"
-        cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg"
-        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg"
-      jak3:
-        release_date_override: "2024-06-28"
-        cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg"
-        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg"
+      # jak2:
+      #   release_date_override: "2023-12-11"
+      #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg"
+      #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage2.jpeg"
+      # jak3:
+      #   release_date_override: "2024-06-28"
+      #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg"
+      #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Speedrun-Practice/main/ModImage3.jpg"
 
-  checkpoint-randomizer:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Randomizer"
-    url: "https://github.com/OpenGOAL-Mods/OG-Randomizer"
-    release_date_override: "2022-08-28"
-    ignore_versions:
-      - "<0.2.2"
-    display_name: "Checkpoint Randomizer"
-    description: "Warp to a random checkpoint on various triggers (cells, flies, orbs, eco, death)."
-    authors: ["zed", "MikeGamePro", "barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Randomizer/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Randomizer/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomizerSmall.png"
-
-  random-cell-order:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-RCO"
-    url: "https://github.com/OpenGOAL-Mods/OG-RCO"
-    release_date_override: "2023-02-02"
-    ignore_versions:
-      - "<0.0.3"
-    display_name: "Random Cell Order"
-    description: "Jak 1 but you must pick up cells in the (random) specified order. Check the website for more info on toggle-able settings."
-    authors: ["barg", "SixRock", "Dexz"]
-    tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-RCO/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-RCO/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomCellOrderSmall.png"
-
-  flutflut-legacy:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-FlutFlut-Legacy"
-    url: "https://github.com/OpenGOAL-Mods/OG-FlutFlut-Legacy"
-    release_date_override: "2022-09-10"
-    ignore_versions:
-      - "<0.1.2"
-    display_name: "The FlutFlut Legacy"
-    description: "Play the whole game on FlutFlut."
-    authors: ["zed", "barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-FlutFlut-Legacy/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/flutflutlegacy.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/FlutFlutSmall.png"
-
-  zoomer-legacy:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Zoomer-Legacy"
-    url: "https://github.com/OpenGOAL-Mods/OG-Zoomer-Legacy"
-    release_date_override: "2022-09-20"
-    ignore_versions:
-      - "<0.0.1"
-    display_name: "The Zoomer Legacy"
-    description: "Play the whole game on the Zoomer, with various changes to better explore the entire game."
-    authors: ["zed", "barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Zoomer-Legacy/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Zoomer-Legacy/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ZoomerSmall.png"
-
-  super-mario-64:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-SM64"
-    url: "https://github.com/OpenGOAL-Mods/OG-SM64"
-    release_date_override: "2022-10-28"
-    ignore_versions:
-      - "<0.0.2"
-    display_name: "The SM64 Legacy"
-    description: "Plays similar to Super Mario 64 (stars->cells, red coins->scout flies, coins->orbs)"
-    authors: ["barg", "OutrageousJosh"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-SM64/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/opengoal-sm64/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/opengoal-sm64/main/ModImage.png"
-
-  # TODO: migrate to modern mod base
-  # snowy-legacy:
-  #   repo_owner: "kekdeveloper"
-  #   repo_name: "opengoal-mod-snowy-legacy"
-  #   url: "https://github.com/kekdeveloper/opengoal-mod-snowy-legacy"
-  #   release_date_override: "2022-09-08"
+  # checkpoint-randomizer:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Randomizer"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Randomizer"
+  #   release_date_override: "2022-08-28"
   #   ignore_versions:
-  #     - "<1.0.5"
-  #   display_name: "Snowy Legacy"
-  #   description: "Snowy texture pack and snowy weather everywhere"
-  #   authors: ["InnocentMiau"]
-  #   tags: ["texture-mod"]
-  #   website_url: "https://github.com/dallmeyer/opengoal-sm64/blob/main/README.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/kekdeveloper/opengoal-mod-snowy-legacy/main/ModImage.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/kekdeveloper/opengoal-mod-snowy-legacy/main/ModImage.png"
+  #     - "<0.2.2"
+  #   display_name: "Checkpoint Randomizer"
+  #   description: "Warp to a random checkpoint on various triggers (cells, flies, orbs, eco, death)."
+  #   authors: ["zed", "MikeGamePro", "barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Randomizer/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Randomizer/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomizerSmall.png"
 
-  # TODO: migrate to modern mod base
-  microtransactions:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Microtransactions"
-    url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions"
-    release_date_override: "2022-08-28"
-    ignore_versions:
-      - "<0.0.2"
-    display_name: "MicroTransactions"
-    description: "Unlock Jak's moveset with orbs!"
-    authors: ["HimHam"]
-    tags: ["gameplay-mod", "challenge"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Microtransactions/refs/heads/main/MicrotransactionsSmall.png"
-
-  orb-hunt:
-    repo_owner: "dallmeyer"
-    repo_name: "OG-OrbHunt"
-    url: "https://github.com/dallmeyer/OG-OrbHunt"
-    ignore_versions:
-      - "<1.7.4"
-    display_name: "Orb Hunt"
-    description: "Precursor Orb Scavenger Hunt"
-    authors: ["barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/dallmeyer/OG-OrbHunt/blob/main/README.md"
-    per_game_config:
-      jak1:
-        release_date_override: "2023-01-05"
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHuntSmall.png"
-      jak2:
-        release_date_override: "2024-07-01"
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage2.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHunt2Small.png"
-
-  bugged:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Bugged"
-    url: "https://github.com/OpenGOAL-Mods/OG-Bugged"
-    release_date_override: "2023-10-23"
-    ignore_versions:
-      - "<0.1.22"
-    display_name: "Bugged"
-    description: "Over 25 bugs added to completely change the speedrun! Think you can find them all? Check the website for hints"
-    authors: ["bintendo42", "barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://jakmods.dev/bugged/buglist.html"
-    cover_art_url: "https://jakmods.dev/bugged/bugged_logo.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/BuggedSmall.png"
-
-  patched:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Patched"
-    url: "https://github.com/OpenGOAL-Mods/OG-Patched"
-    release_date_override: "2024-04-01"
-    ignore_versions:
-      - "<1.1.1"
-    display_name: "Patched"
-    description: "Jak and Daxter: The Precursor Legacy v1.1 ;)"
-    authors: ["bintendo42", "barg"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Patched/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Patched/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/PatchedSmall.png"
-
-  orange-demon:
-    repo_owner: "Hat-Kid"
-    repo_name: "og-orange-demon"
-    release_date_override: "2023-07-09"
-    url: "https://github.com/Hat-Kid/og-orange-demon"
-    ignore_versions:
-      - "<0.0.1"
-    display_name: "Orange Demon Challenge"
-    description: "Play through the entire game while being chased by Daxter!"
-    authors: ["Hat-Kid"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/Hat-Kid/og-orange-demon/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrangeDemonSmall.png"
-
-  fricked-up:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Fricked"
-    url: "https://github.com/OpenGOAL-Mods/OG-Fricked"
-    ignore_versions:
-      - "<1.0.0"
-    display_name: "Fricked Up"
-    description: "PAUSERS"
-    authors: ["zed"]
-    tags: ["rng", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Fricked/blob/main/README.md"
-    per_game_config:
-      jak1:
-        release_date_override: "2023-01-19"
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
-      jak2:
-        release_date_override: "2023-11-09"
-        cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
-        thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
-
-  # TODO: needs new release w/ updated schema
-  # ruh-hot-rod:
-  #   repo_owner: "rileyfort"
-  #   repo_name: "jak-2-hot-rod"
-  #   url: "https://github.com/rileyfort/jak-2-hot-rod"
-  #   release_date_override: "2023-11-09"
+  # random-cell-order:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-RCO"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-RCO"
+  #   release_date_override: "2023-02-02"
   #   ignore_versions:
   #     - "<0.0.3"
-  #   display_name: "Jak II Hot Rod"
-  #   description: "Changes one of the overworld zoomers to always spawn as a hot rod variant. Max speed has been increased from 40 to 200."
+  #   display_name: "Random Cell Order"
+  #   description: "Jak 1 but you must pick up cells in the (random) specified order. Check the website for more info on toggle-able settings."
+  #   authors: ["barg", "SixRock", "Dexz"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod", "rng"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-RCO/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-RCO/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RandomCellOrderSmall.png"
+
+  # flutflut-legacy:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-FlutFlut-Legacy"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-FlutFlut-Legacy"
+  #   release_date_override: "2022-09-10"
+  #   ignore_versions:
+  #     - "<0.1.2"
+  #   display_name: "The FlutFlut Legacy"
+  #   description: "Play the whole game on FlutFlut."
+  #   authors: ["zed", "barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-FlutFlut-Legacy/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/flutflutlegacy.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/FlutFlutSmall.png"
+
+  # zoomer-legacy:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Zoomer-Legacy"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Zoomer-Legacy"
+  #   release_date_override: "2022-09-20"
+  #   ignore_versions:
+  #     - "<0.0.1"
+  #   display_name: "The Zoomer Legacy"
+  #   description: "Play the whole game on the Zoomer, with various changes to better explore the entire game."
+  #   authors: ["zed", "barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Zoomer-Legacy/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Zoomer-Legacy/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ZoomerSmall.png"
+
+  # super-mario-64:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-SM64"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-SM64"
+  #   release_date_override: "2022-10-28"
+  #   ignore_versions:
+  #     - "<0.0.2"
+  #   display_name: "The SM64 Legacy"
+  #   description: "Plays similar to Super Mario 64 (stars->cells, red coins->scout flies, coins->orbs)"
+  #   authors: ["barg", "OutrageousJosh"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-SM64/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/opengoal-sm64/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/opengoal-sm64/main/ModImage.png"
+
+  # # TODO: migrate to modern mod base
+  # # snowy-legacy:
+  # #   repo_owner: "kekdeveloper"
+  # #   repo_name: "opengoal-mod-snowy-legacy"
+  # #   url: "https://github.com/kekdeveloper/opengoal-mod-snowy-legacy"
+  # #   release_date_override: "2022-09-08"
+  # #   ignore_versions:
+  # #     - "<1.0.5"
+  # #   display_name: "Snowy Legacy"
+  # #   description: "Snowy texture pack and snowy weather everywhere"
+  # #   authors: ["InnocentMiau"]
+  # #   tags: ["texture-mod"]
+  # #   website_url: "https://github.com/dallmeyer/opengoal-sm64/blob/main/README.md"
+  # #   cover_art_url: "https://raw.githubusercontent.com/kekdeveloper/opengoal-mod-snowy-legacy/main/ModImage.png"
+  # #   thumbnail_art_url: "https://raw.githubusercontent.com/kekdeveloper/opengoal-mod-snowy-legacy/main/ModImage.png"
+
+  # # TODO: migrate to modern mod base
+  # microtransactions:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Microtransactions"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions"
+  #   release_date_override: "2022-08-28"
+  #   ignore_versions:
+  #     - "<0.0.2"
+  #   display_name: "MicroTransactions"
+  #   description: "Unlock Jak's moveset with orbs!"
+  #   authors: ["HimHam"]
+  #   tags: ["gameplay-mod", "challenge"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Microtransactions/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/himham-jak/Jak1-but-Microtransactions/microtransactions/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Microtransactions/refs/heads/main/MicrotransactionsSmall.png"
+
+  # orb-hunt:
+  #   repo_owner: "dallmeyer"
+  #   repo_name: "OG-OrbHunt"
+  #   url: "https://github.com/dallmeyer/OG-OrbHunt"
+  #   ignore_versions:
+  #     - "<1.7.4"
+  #   display_name: "Orb Hunt"
+  #   description: "Precursor Orb Scavenger Hunt"
+  #   authors: ["barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/dallmeyer/OG-OrbHunt/blob/main/README.md"
+  #   per_game_config:
+  #     jak1:
+  #       release_date_override: "2023-01-05"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHuntSmall.png"
+  #     jak2:
+  #       release_date_override: "2024-07-01"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/OG-OrbHunt/main/ModImage2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrbHunt2Small.png"
+
+  # bugged:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Bugged"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Bugged"
+  #   release_date_override: "2023-10-23"
+  #   ignore_versions:
+  #     - "<0.1.22"
+  #   display_name: "Bugged"
+  #   description: "Over 25 bugs added to completely change the speedrun! Think you can find them all? Check the website for hints"
+  #   authors: ["bintendo42", "barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://jakmods.dev/bugged/buglist.html"
+  #   cover_art_url: "https://jakmods.dev/bugged/bugged_logo.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/BuggedSmall.png"
+
+  # patched:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Patched"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Patched"
+  #   release_date_override: "2024-04-01"
+  #   ignore_versions:
+  #     - "<1.1.1"
+  #   display_name: "Patched"
+  #   description: "Jak and Daxter: The Precursor Legacy v1.1 ;)"
+  #   authors: ["bintendo42", "barg"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Patched/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Patched/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/PatchedSmall.png"
+
+  # orange-demon:
+  #   repo_owner: "Hat-Kid"
+  #   repo_name: "og-orange-demon"
+  #   release_date_override: "2023-07-09"
+  #   url: "https://github.com/Hat-Kid/og-orange-demon"
+  #   ignore_versions:
+  #     - "<0.0.1"
+  #   display_name: "Orange Demon Challenge"
+  #   description: "Play through the entire game while being chased by Daxter!"
+  #   authors: ["Hat-Kid"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/Hat-Kid/og-orange-demon/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Hat-Kid/og-orange-demon/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/OrangeDemonSmall.png"
+
+  # fricked-up:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Fricked"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Fricked"
+  #   ignore_versions:
+  #     - "<1.0.0"
+  #   display_name: "Fricked Up"
+  #   description: "PAUSERS"
+  #   authors: ["zed"]
+  #   tags: ["rng", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Fricked/blob/main/README.md"
+  #   per_game_config:
+  #     jak1:
+  #       release_date_override: "2023-01-19"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #     jak2:
+  #       release_date_override: "2023-11-09"
+  #       cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+  #       thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/frickedup2.png"
+
+  # # TODO: needs new release w/ updated schema
+  # # ruh-hot-rod:
+  # #   repo_owner: "rileyfort"
+  # #   repo_name: "jak-2-hot-rod"
+  # #   url: "https://github.com/rileyfort/jak-2-hot-rod"
+  # #   release_date_override: "2023-11-09"
+  # #   ignore_versions:
+  # #     - "<0.0.3"
+  # #   display_name: "Jak II Hot Rod"
+  # #   description: "Changes one of the overworld zoomers to always spawn as a hot rod variant. Max speed has been increased from 40 to 200."
+  # #   authors: ["Ruh"]
+  # #   tags: ["texture-mod", "gameplay-mod"]
+  # #   website_url: "https://github.com/rileyfort/jak-2-hot-rod/blob/main/README.md"
+  # #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hotrod.png"
+  # #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hotrod.png"
+
+  # spec-ops:
+  #   repo_owner: "ruhphorte"
+  #   repo_name: "spec-ops-jak"
+  #   url: "https://github.com/ruhphorte/spec-ops-jak"
+  #   release_date_override: "2024-07-23"
+  #   ignore_versions:
+  #     - "<0.0.3"
+  #   display_name: "Spec Ops Jak"
+  #   description: "Immediately after being rescued by Daxter, Jak is fitted with an all black Spec Ops outfit and a new weapon. The Blaster Mod has been replaced with a fully automatic suppressed XM Nova assault rifle that fires depleted light eco rounds. These light eco rounds will easily take down anything in your way."
   #   authors: ["Ruh"]
   #   tags: ["texture-mod", "gameplay-mod"]
-  #   website_url: "https://github.com/rileyfort/jak-2-hot-rod/blob/main/README.md"
-  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hotrod.png"
-  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/hotrod.png"
+  #   website_url: "https://github.com/ruhphorte/spec-ops-jak/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/spec-ops.JPG"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/SpecOpsSmall.png"
 
-  spec-ops:
-    repo_owner: "ruhphorte"
-    repo_name: "spec-ops-jak"
-    url: "https://github.com/ruhphorte/spec-ops-jak"
-    release_date_override: "2024-07-23"
-    ignore_versions:
-      - "<0.0.3"
-    display_name: "Spec Ops Jak"
-    description: "Immediately after being rescued by Daxter, Jak is fitted with an all black Spec Ops outfit and a new weapon. The Blaster Mod has been replaced with a fully automatic suppressed XM Nova assault rifle that fires depleted light eco rounds. These light eco rounds will easily take down anything in your way."
-    authors: ["Ruh"]
-    tags: ["texture-mod", "gameplay-mod"]
-    website_url: "https://github.com/ruhphorte/spec-ops-jak/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/spec-ops.JPG"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/SpecOpsSmall.png"
+  # archipelagoal:
+  #   repo_owner: "ArchipelaGOAL"
+  #   repo_name: "ArchipelaGOAL"
+  #   url: "https://github.com/ArchipelaGOAL/ArchipelaGOAL"
+  #   release_date_override: "2024-05-22"
+  #   ignore_versions:
+  #     - "<0.0.11"
+  #   display_name: "ArchipelaGOAL"
+  #   description: "Jak 1 Archipelago Randomizer"
+  #   authors: ["markus"]
+  #   tags: ["rng", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/ArchipelaGOAL/ArchipelaGOAL/main/thumbnails/background.gif"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/ArchipelaGOAL/ArchipelaGOAL/main/thumbnails/thumbnail.png"
 
-  archipelagoal:
-    repo_owner: "ArchipelaGOAL"
-    repo_name: "ArchipelaGOAL"
-    url: "https://github.com/ArchipelaGOAL/ArchipelaGOAL"
-    release_date_override: "2024-05-22"
-    ignore_versions:
-      - "<0.0.11"
-    display_name: "ArchipelaGOAL"
-    description: "Jak 1 Archipelago Randomizer"
-    authors: ["markus"]
-    tags: ["rng", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/ArchipelaGOAL/Archipelago/blob/main/worlds/jakanddaxter/docs/setup_en.md"
-    cover_art_url: "https://raw.githubusercontent.com/ArchipelaGOAL/ArchipelaGOAL/main/thumbnails/background.gif"
-    thumbnail_art_url: "https://raw.githubusercontent.com/ArchipelaGOAL/ArchipelaGOAL/main/thumbnails/thumbnail.png"
+  # mortin-time:
+  #   repo_owner: "my-opengoal-mods"
+  #   repo_name: "OG-Jak-The-Chicken-Reborn"
+  #   url: "https://github.com/my-opengoal-mods/OG-Jak-The-Chicken-Reborn"
+  #   release_date_override: "2023-10-21"
+  #   ignore_versions:
+  #     - "<1.13.1"
+  #   display_name: "Jak the CHICKEN"
+  #   description: "Adds over 18 levels and 900+ collectibles to the game and new powerups and adventures! Note: currently it is disguised as a fart mod. It is not."
+  #   authors: ["zed"]
+  #   tags: ["challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/my-opengoal-mods/OG-Jak-The-Chicken-Reborn/blob/main/README.md"
+  #   cover_art_url: "https://www.speedrun.com/static/game/j1lnnwz6/cover.png?v=47fd2cf"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakChickenSmall.png"
 
-  mortin-time:
-    repo_owner: "my-opengoal-mods"
-    repo_name: "OG-Jak-The-Chicken-Reborn"
-    url: "https://github.com/my-opengoal-mods/OG-Jak-The-Chicken-Reborn"
-    release_date_override: "2023-10-21"
-    ignore_versions:
-      - "<1.13.1"
-    display_name: "Jak the CHICKEN"
-    description: "Adds over 18 levels and 900+ collectibles to the game and new powerups and adventures! Note: currently it is disguised as a fart mod. It is not."
-    authors: ["zed"]
-    tags: ["challenge", "gameplay-mod"]
-    website_url: "https://github.com/my-opengoal-mods/OG-Jak-The-Chicken-Reborn/blob/main/README.md"
-    cover_art_url: "https://www.speedrun.com/static/game/j1lnnwz6/cover.png?v=47fd2cf"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakChickenSmall.png"
+  # daxter-2:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Daxter2"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Daxter2"
+  #   release_date_override: "2023-11-04"
+  #   ignore_versions:
+  #     - "<0.3.4"
+  #   display_name: "Daxter II"
+  #   description: "Daxter finally gets his sequel!"
+  #   authors: ["barg"]
+  #   tags: ["speedrunning", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Daxter2/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Daxter2/main/daxter2.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Daxter2/main/daxter2.png"
 
-  daxter-2:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Daxter2"
-    url: "https://github.com/OpenGOAL-Mods/OG-Daxter2"
-    release_date_override: "2023-11-04"
-    ignore_versions:
-      - "<0.3.4"
-    display_name: "Daxter II"
-    description: "Daxter finally gets his sequel!"
-    authors: ["barg"]
-    tags: ["speedrunning", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Daxter2/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Daxter2/main/daxter2.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Daxter2/main/daxter2.png"
+  # jak2-august:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Jak2-AugustBuild"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild"
+  #   release_date_override: "2024-05-16"
+  #   ignore_versions:
+  #     - "<0.0.3"
+  #   display_name: "Jak II - August Build"
+  #   description: "Mimics the Jak II August 2003 Review build which allows for consite skip"
+  #   authors: ["barg", "zed"]
+  #   tags: ["speedrunning", "gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/Jak2AugustSmall.png"
 
-  jak2-august:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Jak2-AugustBuild"
-    url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild"
-    release_date_override: "2024-05-16"
-    ignore_versions:
-      - "<0.0.3"
-    display_name: "Jak II - August Build"
-    description: "Mimics the Jak II August 2003 Review build which allows for consite skip"
-    authors: ["barg", "zed"]
-    tags: ["speedrunning", "gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Jak2-AugustBuild/main/ModImage.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/Jak2AugustSmall.png"
+  # heromode-plus:
+  #   repo_owner: "RealOfficialKraken"
+  #   repo_name: "updated-HeroModePlus"
+  #   url: "https://github.com/RealOfficialKraken/updated-HeroModePlus"
+  #   release_date_override: "2023-11-07"
+  #   ignore_versions:
+  #     - "<0.0.1"
+  #   display_name: "HeroMode+ | A Jak II Overhaul"
+  #   description: "Overhauls Jak II's difficulty, but with a twist! Adds weapon mods, custom modifiers, hero mode changes, and various other things to find! Are you up for the challenge?"
+  #   authors: ["Kraken"]
+  #   tags: ["challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/RealOfficialKraken/updated-HeroModePlus/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusLarge.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusSmall.png"
 
-  heromode-plus:
-    repo_owner: "RealOfficialKraken"
-    repo_name: "updated-HeroModePlus"
-    url: "https://github.com/RealOfficialKraken/updated-HeroModePlus"
-    release_date_override: "2023-11-07"
-    ignore_versions:
-      - "<0.0.1"
-    display_name: "HeroMode+ | A Jak II Overhaul"
-    description: "Overhauls Jak II's difficulty, but with a twist! Adds weapon mods, custom modifiers, hero mode changes, and various other things to find! Are you up for the challenge?"
-    authors: ["Kraken"]
-    tags: ["challenge", "gameplay-mod"]
-    website_url: "https://github.com/RealOfficialKraken/updated-HeroModePlus/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusLarge.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/HeroModePlusSmall.png"
+  # roguelike-jak2:
+  #   repo_owner: "RealOfficialKraken"
+  #   repo_name: "roguelikejakii"
+  #   url: "https://github.com/RealOfficialKraken/roguelikejakii"
+  #   release_date_override: "2024-05-03"
+  #   ignore_versions:
+  #     - "<0.0.23"
+  #   display_name: "Roguelike Jak 2"
+  #   description: "The Jak Time Loop is broken! To restore it, Jak must fight through random missions that grow more unstable the further you venture. As the enemies get stronger, so can you! With Vin's help, Jak must blast his way back into the metalhead nest, and restore his destiny."
+  #   authors: ["Kraken"]
+  #   tags: ["rng", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/RealOfficialKraken/roguelikejakii/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Background.gif"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Thumbnail.png"
 
-  roguelike-jak2:
-    repo_owner: "RealOfficialKraken"
-    repo_name: "roguelikejakii"
-    url: "https://github.com/RealOfficialKraken/roguelikejakii"
-    release_date_override: "2024-05-03"
-    ignore_versions:
-      - "<0.0.23"
-    display_name: "Roguelike Jak 2"
-    description: "The Jak Time Loop is broken! To restore it, Jak must fight through random missions that grow more unstable the further you venture. As the enemies get stronger, so can you! With Vin's help, Jak must blast his way back into the metalhead nest, and restore his destiny."
-    authors: ["Kraken"]
-    tags: ["rng", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/RealOfficialKraken/roguelikejakii/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Background.gif"
-    thumbnail_art_url: "https://raw.githubusercontent.com/RealOfficialKraken/roguelikejakii/master/Mod-Thumbnail.png"
+  # dark-jak-renegade:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Dark-Jak"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Dark-Jak"
+  #   release_date_override: "2023-11-11"
+  #   ignore_versions:
+  #     - "<0.4.1"
+  #   display_name: "Dark Jak Renegade"
+  #   description: "Infinite Dark Jak, plus you can rolljump, use guns, vehicles, jetboard, etc. Hold L2 to use Dark Bomb/Dark Blast, or to undo Dark Giant. Reboot in debug mode to unlock everything at the start."
+  #   authors: ["barg"]
+  #   tags: ["gameplay-mod"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Dark-Jak/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
 
-  dark-jak-renegade:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Dark-Jak"
-    url: "https://github.com/OpenGOAL-Mods/OG-Dark-Jak"
-    release_date_override: "2023-11-11"
-    ignore_versions:
-      - "<0.4.1"
-    display_name: "Dark Jak Renegade"
-    description: "Infinite Dark Jak, plus you can rolljump, use guns, vehicles, jetboard, etc. Hold L2 to use Dark Bomb/Dark Blast, or to undo Dark Giant. Reboot in debug mode to unlock everything at the start."
-    authors: ["barg"]
-    tags: ["gameplay-mod"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Dark-Jak/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/darkjak.webp"
+  # speeb:
+  #   repo_owner: "EvelynTSMG"
+  #   repo_name: "JakSpeeb"
+  #   url: "https://github.com/EvelynTSMG/JakSpeeb"
+  #   release_date_override: "2024-12-31"
+  #   ignore_versions:
+  #     - "<1.0.0"
+  #   display_name: "Speeb"
+  #   description: "Nyoom! :3"
+  #   authors: ["EvelynTSMG"]
+  #   tags: ["speedrunning", "challenge", "gameplay-mod"]
+  #   website_url: "https://github.com/EvelynTSMG/JakSpeeb/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_background.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_thumbnail.png"
 
-  speeb:
-    repo_owner: "EvelynTSMG"
-    repo_name: "JakSpeeb"
-    url: "https://github.com/EvelynTSMG/JakSpeeb"
-    release_date_override: "2024-12-31"
-    ignore_versions:
-      - "<1.0.0"
-    display_name: "Speeb"
-    description: "Nyoom! :3"
-    authors: ["EvelynTSMG"]
-    tags: ["speedrunning", "challenge", "gameplay-mod"]
-    website_url: "https://github.com/EvelynTSMG/JakSpeeb/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_background.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/EvelynTSMG/JakSpeeb/refs/heads/main/_thumbnail.png"
+  # platformia:
+  #   repo_owner: "Grateful-Forest"
+  #   repo_name: "Platformia"
+  #   url: "https://github.com/Grateful-Forest/Platformia"
+  #   release_date_override: "2024-10-09"
+  #   ignore_versions:
+  #     - "<0.0.1"
+  #   display_name: "Platformia"
+  #   description: "Contents: Platforms (99.9%), Particles (0.1%). May contain traces of Jak II checkpoints."
+  #   authors: ["Grateful Forest"]
+  #   tags: ["gameplay-mod", "custom-level", "challenge"]
+  #   website_url: "https://github.com/Grateful-Forest/Platformia/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/background.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/cover.png"
 
-  platformia:
-    repo_owner: "Grateful-Forest"
-    repo_name: "Platformia"
-    url: "https://github.com/Grateful-Forest/Platformia"
-    release_date_override: "2024-10-09"
-    ignore_versions:
-      - "<0.0.1"
-    display_name: "Platformia"
-    description: "Contents: Platforms (99.9%), Particles (0.1%). May contain traces of Jak II checkpoints."
-    authors: ["Grateful Forest"]
-    tags: ["gameplay-mod", "custom-level", "challenge"]
-    website_url: "https://github.com/Grateful-Forest/Platformia/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/background.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Grateful-Forest/Platformia/main/cover.png"
-    
-  defend_port_wall:
-    repo_owner: "Nick0778"
-    repo_name: "OG-Mod-Base"
-    url: "https://github.com/Nick0778/OG-Mod-Base"
-    release_date_override: "2025-02-25"
-    ignore_versions:
-      - "<0.0.1"
-    display_name: "Defend the Port Wall"
-    description: "Play the cut mission 'Defend the Port Wall'. Special install instructions: https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
-    authors: ["Nick07"]
-    tags: ["gameplay-mod"]
-    website_url: "https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_BG.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_Cover.png"
+  # defend_port_wall:
+  #   repo_owner: "Nick0778"
+  #   repo_name: "OG-Mod-Base"
+  #   url: "https://github.com/Nick0778/OG-Mod-Base"
+  #   release_date_override: "2025-02-25"
+  #   ignore_versions:
+  #     - "<0.0.1"
+  #   display_name: "Defend the Port Wall"
+  #   description: "Play the cut mission 'Defend the Port Wall'. Special install instructions: https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
+  #   authors: ["Nick07"]
+  #   tags: ["gameplay-mod"]
+  #   website_url: "https://github.com/Nick0778/OG-Mod-Base/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_BG.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/Nick0778/OG-Mod-Base/refs/heads/main/ModArt_Cover.png"
 
   #### CUSTOM LEVEL MODS ####
 
-  forgotten-lands:
-    repo_owner: "Kuitar5"
-    repo_name: "the-forgotten-lands"
-    url: "https://github.com/Kuitar5/the-forgotten-lands"
-    release_date_override: "2023-01-08"
-    ignore_versions:
-      - "<0.2.2"
-    display_name: "The Forgotten Lands"
-    description: "Experience a new story and levels. Start a new game and beat Geyser Rock to access the custom levels."
-    authors: ["Kuitar", "Hat-Kid"]
-    tags: ["custom-level", "gameplay-mod"]
-    website_url: "https://github.com/Kuitar5/the-forgotten-lands/blob/main/README.md#the-forgotten-lands"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_background.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_thumbnail.png"
+  # forgotten-lands:
+  #   repo_owner: "Kuitar5"
+  #   repo_name: "the-forgotten-lands"
+  #   url: "https://github.com/Kuitar5/the-forgotten-lands"
+  #   release_date_override: "2023-01-08"
+  #   ignore_versions:
+  #     - "<0.2.2"
+  #   display_name: "The Forgotten Lands"
+  #   description: "Experience a new story and levels. Start a new game and beat Geyser Rock to access the custom levels."
+  #   authors: ["Kuitar", "Hat-Kid"]
+  #   tags: ["custom-level", "gameplay-mod"]
+  #   website_url: "https://github.com/Kuitar5/the-forgotten-lands/blob/main/README.md#the-forgotten-lands"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_background.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/dallmeyer/the-forgotten-lands/refs/heads/main/mod_thumbnail.png"
 
-  up:
-    repo_owner: "dallmeyer"
-    repo_name: "jak-up"
-    url: "https://github.com/dallmeyer/jak-up"
-    release_date_override: "2023-08-10"
-    ignore_versions:
-      - "<0.2.1"
-    display_name: "Jak Up"
-    description: "Only Up in Jak 1. WARNING: the custom levels take up ~500MB, and will take a few minutes to install."
-    authors: ["barg"]
-    tags: ["custom-level", "gameplay-mod", "challenge", "speedrunning"]
-    website_url: "https://github.com/dallmeyer/jak-up/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/jakup.jpeg"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakUpSmall.png"
+  # up:
+  #   repo_owner: "dallmeyer"
+  #   repo_name: "jak-up"
+  #   url: "https://github.com/dallmeyer/jak-up"
+  #   release_date_override: "2023-08-10"
+  #   ignore_versions:
+  #     - "<0.2.1"
+  #   display_name: "Jak Up"
+  #   description: "Only Up in Jak 1. WARNING: the custom levels take up ~500MB, and will take a few minutes to install."
+  #   authors: ["barg"]
+  #   tags: ["custom-level", "gameplay-mod", "challenge", "speedrunning"]
+  #   website_url: "https://github.com/dallmeyer/jak-up/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/jakup.jpeg"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/JakUpSmall.png"
 
-  river-to-water:
-    repo_owner: "Cuttlefishthesage"
-    repo_name: "OG-Mod-Base"
-    url: "https://github.com/Cuttlefishthesage/OG-Mod-Base"
-    release_date_override: "2024-06-04"
-    ignore_versions:
-      - "<0.0.3"
-    display_name: "River to Water"
-    description: "Custom level River to Water (Afon i ddwr) of a winding mountain path with powercells, scoutflies and orbs guarded by lurkers! Visit via the warpgate once you complete the game or just use debug mode to visit early!"
-    authors: ["Cuttlefish"]
-    tags: ["custom-level"]
-    website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/cuttlefish-river-to-water.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RiverWaterSmall.png"
+  # river-to-water:
+  #   repo_owner: "Cuttlefishthesage"
+  #   repo_name: "OG-Mod-Base"
+  #   url: "https://github.com/Cuttlefishthesage/OG-Mod-Base"
+  #   release_date_override: "2024-06-04"
+  #   ignore_versions:
+  #     - "<0.0.3"
+  #   display_name: "River to Water"
+  #   description: "Custom level River to Water (Afon i ddwr) of a winding mountain path with powercells, scoutflies and orbs guarded by lurkers! Visit via the warpgate once you complete the game or just use debug mode to visit early!"
+  #   authors: ["Cuttlefish"]
+  #   tags: ["custom-level"]
+  #   website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/cuttlefish-river-to-water.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RiverWaterSmall.png"
 
-  rockpool:
-    repo_owner: "Cuttlefishthesage"
-    repo_name: "Og-ModBase-Rockpool"
-    url: "https://github.com/Cuttlefishthesage/Og-ModBase-Rockpool"
-    release_date_override: "2024-07-23"
-    ignore_versions:
-      - "<1.0.3"
-    display_name: "Rockpool"
-    description: "A sunny beach side trip with cliffs to scale, powercells to find and lurkers to fight! Be careful not to swim out too far...  Access via the warpgate in debug or a full save game!"
-    authors: ["Cuttlefish"]
-    tags: ["custom-level"]
-    website_url: "https://github.com/Cuttlefishthesage/Og-ModBase-Rockpool/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RockpoolSmall.png"
+  # rockpool:
+  #   repo_owner: "Cuttlefishthesage"
+  #   repo_name: "Og-ModBase-Rockpool"
+  #   url: "https://github.com/Cuttlefishthesage/Og-ModBase-Rockpool"
+  #   release_date_override: "2024-07-23"
+  #   ignore_versions:
+  #     - "<1.0.3"
+  #   display_name: "Rockpool"
+  #   description: "A sunny beach side trip with cliffs to scale, powercells to find and lurkers to fight! Be careful not to swim out too far...  Access via the warpgate in debug or a full save game!"
+  #   authors: ["Cuttlefish"]
+  #   tags: ["custom-level"]
+  #   website_url: "https://github.com/Cuttlefishthesage/Og-ModBase-Rockpool/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/dallmeyer/modimages/main/rockpool.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RockpoolSmall.png"
 
-  overgrown:
-    repo_owner: "Cuttlefishthesage"
-    repo_name: "LL-OpenGOAL-ModBase"
-    url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase"
-    release_date_override: "2024-09-26"
-    ignore_versions:
-      - "<4.3.3"
-    display_name: "Overgrown"
-    description: "6 powercells to find in this winding ancient forest! From scaling giant trees, to navigating mazes of nettles! Rumour has it, the muses brother lives out here too..."
-    authors: ["Cuttlefish"]
-    tags: ["custom-level"]
-    website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
-    
-  glacier:
-    repo_owner: "Cuttlefishthesage"
-    repo_name: "OG-Mod-Base-Glacier"
-    url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier"
-    release_date_override: "2024-12-22"
-    ignore_versions:
-      - "<1.0.7"
-    display_name: "Glacier"
-    description: "The lurkers are harvesting vast quantities of dark eco from these rocky glaciers. You must stop their terrible plans and destroy their pumps! Featuring 101 orbs and 7 power cells to find and discover!"
-    authors: ["Cuttlefish"]
-    tags: ["custom-level"]
-    website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
+  # overgrown:
+  #   repo_owner: "Cuttlefishthesage"
+  #   repo_name: "LL-OpenGOAL-ModBase"
+  #   url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase"
+  #   release_date_override: "2024-09-26"
+  #   ignore_versions:
+  #     - "<4.3.3"
+  #   display_name: "Overgrown"
+  #   description: "6 powercells to find in this winding ancient forest! From scaling giant trees, to navigating mazes of nettles! Rumour has it, the muses brother lives out here too..."
+  #   authors: ["Cuttlefish"]
+  #   tags: ["custom-level"]
+  #   website_url: "https://github.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/LL-OpenGOAL-ModBase/refs/heads/master/overgrownthumbnail.png"
 
-  #### MODEL REPLACEMENT MODS ####
+  # glacier:
+  #   repo_owner: "Cuttlefishthesage"
+  #   repo_name: "OG-Mod-Base-Glacier"
+  #   url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier"
+  #   release_date_override: "2024-12-22"
+  #   ignore_versions:
+  #     - "<1.0.7"
+  #   display_name: "Glacier"
+  #   description: "The lurkers are harvesting vast quantities of dark eco from these rocky glaciers. You must stop their terrible plans and destroy their pumps! Featuring 101 orbs and 7 power cells to find and discover!"
+  #   authors: ["Cuttlefish"]
+  #   tags: ["custom-level"]
+  #   website_url: "https://github.com/Cuttlefishthesage/OG-Mod-Base-Glacier/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/Cuttlefishthesage/OG-Mod-Base-Glacier/refs/heads/main/GlacierThumbnailFinal.PNG"
 
-  its-ogre-now:
-    repo_owner: "OpenGOAL-Mods"
-    repo_name: "OG-Shrek-Adventures"
-    url: "https://github.com/OpenGOAL-Mods/OG-Shrek-Adventures"
-    release_date_override: "2023-04-05"
-    ignore_versions:
-      - "<1.0.57"
-    display_name: "Shrek Adventures"
-    description: "Shrek is life."
-    authors: ["zed"]
-    tags: ["model-replacement"]
-    website_url: "https://github.com/OpenGOAL-Mods/OG-Shrek-Adventures/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Shrek-Adventures/main/shrek.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ShrekSmall.png"
+  # #### MODEL REPLACEMENT MODS ####
 
-  rayman:
-    repo_owner: "dallmeyer"
-    repo_name: "OG-rayman"
-    url: "https://github.com/dallmeyer/OG-rayman"
-    release_date_override: "2024-08-03"
-    ignore_versions:
-      - "<0.0.0"
-    display_name: "Rayman - The Precursor Legacy"
-    description: "Almost Rayman 4"
-    authors: ["Clankape"]
-    tags: ["model-replacement"]
-    website_url: "https://github.com/dallmeyer/OG-rayman/blob/main/README.md"
-    cover_art_url: "https://i.ytimg.com/vi/iVhPEnZxric/hqdefault.jpg"
-    thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RaymanSmall.png"
+  # its-ogre-now:
+  #   repo_owner: "OpenGOAL-Mods"
+  #   repo_name: "OG-Shrek-Adventures"
+  #   url: "https://github.com/OpenGOAL-Mods/OG-Shrek-Adventures"
+  #   release_date_override: "2023-04-05"
+  #   ignore_versions:
+  #     - "<1.0.57"
+  #   display_name: "Shrek Adventures"
+  #   description: "Shrek is life."
+  #   authors: ["zed"]
+  #   tags: ["model-replacement"]
+  #   website_url: "https://github.com/OpenGOAL-Mods/OG-Shrek-Adventures/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/OG-Shrek-Adventures/main/shrek.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/ShrekSmall.png"
 
-  halloween:
-    repo_owner: "Clankape"
-    repo_name: "OG-Mod-Base-Halloween"
-    url: "https://github.com/Clankape/OG-Mod-Base-Halloween"
-    release_date_override: "2024-10-31"
-    ignore_versions:
-      - "<0.0.2"
-    display_name: "The Halloween Legacy"
-    description: "Jak & Daxter - The Halloween Legacy"
-    authors: ["Clankape"]
-    tags: ["model-replacement"]
-    website_url: "https://github.com/Clankape/OG-Mod-Base-Halloween/blob/main/README.md"
-    cover_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/Background.png"
-    thumbnail_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/thumbnail.png"
+  # rayman:
+  #   repo_owner: "dallmeyer"
+  #   repo_name: "OG-rayman"
+  #   url: "https://github.com/dallmeyer/OG-rayman"
+  #   release_date_override: "2024-08-03"
+  #   ignore_versions:
+  #     - "<0.0.0"
+  #   display_name: "Rayman - The Precursor Legacy"
+  #   description: "Almost Rayman 4"
+  #   authors: ["Clankape"]
+  #   tags: ["model-replacement"]
+  #   website_url: "https://github.com/dallmeyer/OG-rayman/blob/main/README.md"
+  #   cover_art_url: "https://i.ytimg.com/vi/iVhPEnZxric/hqdefault.jpg"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/OpenGOAL-Mods/jakmods.dev/main/ModImages/RaymanSmall.png"
+
+  # halloween:
+  #   repo_owner: "Clankape"
+  #   repo_name: "OG-Mod-Base-Halloween"
+  #   url: "https://github.com/Clankape/OG-Mod-Base-Halloween"
+  #   release_date_override: "2024-10-31"
+  #   ignore_versions:
+  #     - "<0.0.2"
+  #   display_name: "The Halloween Legacy"
+  #   description: "Jak & Daxter - The Halloween Legacy"
+  #   authors: ["Clankape"]
+  #   tags: ["model-replacement"]
+  #   website_url: "https://github.com/Clankape/OG-Mod-Base-Halloween/blob/main/README.md"
+  #   cover_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/Background.png"
+  #   thumbnail_art_url: "https://raw.githubusercontent.com/Clankape/OG-Mod-Base-Halloween/main/thumbnail.png"
 
   # NOTE - allows for just links to mods as well, for ones that don't really fit into
   # the standard mod installation experience
