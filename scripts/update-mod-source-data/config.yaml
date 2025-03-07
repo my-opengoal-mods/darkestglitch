@@ -23,15 +23,15 @@ mods:
   # texture packs left out of migration:
   # candy_pop_keira
 
-  speedrun-practice:
+  darkest_glitch:
     repo_owner: "my-opengoal-mods"
     repo_name: "darkest-glitch"
     url: "https://github.com/my-opengoal-mods/darkest-glitch"
     # NOTE - only '<' is supported and explicit versions.  The assumption is that '<' is only needed to skip
     # past releases that don't conform to the new format, then beyond that hopefully every release is valid
     # with the potential to maybe skip a bad one here and there.
-    # ignore_versions:
-    #   - "<0.1.21"
+    ignore_versions:
+      - "<0.0.1"
     display_name: "Darkest Glitch"
     description: "The truth lies in darkness."
     authors: ["zed"]
